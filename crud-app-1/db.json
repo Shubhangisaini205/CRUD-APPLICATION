@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "image": "https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14=",
+      "title": "bangles",
+      "price": "80000",
+      "brand": "tanishq",
+      "discount": "20%",
+      "gender": "",
+      "id": 2
+    },
+    {
+      "image": "https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14=",
+      "title": "hgj",
+      "price": "hghj",
+      "brand": "hj",
+      "discount": "hgj",
+      "gender": "female",
+      "id": 3
+    }
+  ]
+}
