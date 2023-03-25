@@ -49,7 +49,7 @@ function Admin() {
 
                 <input
                     name="price"
-                    type="text"
+                    type="number"
                     value={product.price}
                     onChange={(e) => handleChange(e)}
                     placeholder='Price' />

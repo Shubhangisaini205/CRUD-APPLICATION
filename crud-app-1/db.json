@@ -1,27 +1,451 @@
 {
   "products": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Sport Shoe",
+      "price": 2500,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 1
     },
     {
-      "image": "https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14=",
-      "title": "bangles",
-      "price": "80000",
-      "brand": "tanishq",
+      "image": "https://rukminim1.flixcart.com/image/612/612/l1xwqkw0/t-shirt/u/a/o/s-3801-the-dry-state-original-imagde5qmgbgyr6e.jpeg?q=70",
+      "title": "blueTshirt",
+      "price": 700,
+      "brand": "roadester",
       "discount": "20%",
-      "gender": "",
+      "gender": "female",
       "id": 2
     },
     {
-      "image": "https://media.istockphoto.com/id/1277517088/photo/fancy-designer-antique-golden-bracelets-for-woman-fashion.jpg?s=612x612&w=0&k=20&c=n49O0S5rIgzxJX5bU1YjwRHfou0DYPcmsv-N5JAAM14=",
-      "title": "hgj",
-      "price": "hghj",
-      "brand": "hj",
-      "discount": "hgj",
-      "gender": "female",
+      "image": "https://rukminim1.flixcart.com/image/612/612/kiulxu80-0/t-shirt/k/d/w/3xl-tie-dye-babe-juneberry-original-imafyjk6hmpwac8j.jpeg?q=70",
+      "title": "Multicolor Tshirt",
+      "price": 500,
+      "brand": "ZARA",
+      "discount": "30%",
+      "gender": "kids",
       "id": 3
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/z/s/z/xl-00104couple-26-tween-trends-original-imafjrmm8yxgxf8e-bb.jpeg?q=70",
+      "title": "Couple Tshirt",
+      "price": 800,
+      "brand": "vfesta",
+      "discount": "30%",
+      "gender": "male",
+      "id": 4
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/9/q/y/s-po3-grl-fs49-groovy-blk-wild-red-battle-leotude-original-imagfqu6zafgywgh.jpeg?q=70",
+      "title": "Red Tshirt",
+      "price": 400,
+      "brand": "Leotude",
+      "discount": "30%",
+      "gender": "female",
+      "id": 5
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/ktd9mkw0/t-shirt/f/3/y/s-w-necktop-darkyel-base-41-original-imag6qdqhygdg84f.jpeg?q=70",
+      "title": "Yellow",
+      "price": 300,
+      "brand": "Base1",
+      "discount": "30%",
+      "gender": "female",
+      "id": 6
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kzzw5u80/shoe/k/b/1/7-rso182-red-tape-beige-original-imagbvnptyxwbzmq.jpeg?q=70",
+      "title": "white shoe",
+      "price": 1400,
+      "brand": "Red Tape",
+      "discount": "20%",
+      "gender": "kids",
+      "id": 7
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/1/i/u/-original-imaggcb7ndjv7fue.jpeg?q=70",
+      "title": "Grey shoe",
+      "price": 2000,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 8
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Black Shoe",
+      "price": 3000,
+      "brand": "Puma",
+      "discount": "10%",
+      "gender": "female",
+      "id": 9
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/o/c/w/g-40777cma-39-woodland-olive-green-original-imafwjusvemma4wv-bb.jpeg?q=70",
+      "title": "High Shoe",
+      "price": 2050,
+      "brand": "woodLand",
+      "discount": "20%",
+      "gender": "male",
+      "id": 10
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Sport Shoe",
+      "price": 2500,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 11
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l1xwqkw0/t-shirt/u/a/o/s-3801-the-dry-state-original-imagde5qmgbgyr6e.jpeg?q=70",
+      "title": "blueTshirt",
+      "price": 700,
+      "brand": "roadester",
+      "discount": "20%",
+      "gender": "female",
+      "id": 12
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kiulxu80-0/t-shirt/k/d/w/3xl-tie-dye-babe-juneberry-original-imafyjk6hmpwac8j.jpeg?q=70",
+      "title": "Multicolor Tshirt",
+      "price": 500,
+      "brand": "ZARA",
+      "discount": "30%",
+      "gender": "kids",
+      "id": 13
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/z/s/z/xl-00104couple-26-tween-trends-original-imafjrmm8yxgxf8e-bb.jpeg?q=70",
+      "title": "Couple Tshirt",
+      "price": 800,
+      "brand": "vfesta",
+      "discount": "30%",
+      "gender": "male",
+      "id": 14
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/9/q/y/s-po3-grl-fs49-groovy-blk-wild-red-battle-leotude-original-imagfqu6zafgywgh.jpeg?q=70",
+      "title": "Red Tshirt",
+      "price": 400,
+      "brand": "Leotude",
+      "discount": "30%",
+      "gender": "female",
+      "id": 15
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/ktd9mkw0/t-shirt/f/3/y/s-w-necktop-darkyel-base-41-original-imag6qdqhygdg84f.jpeg?q=70",
+      "title": "Yellow",
+      "price": 300,
+      "brand": "Base1",
+      "discount": "30%",
+      "gender": "female",
+      "id": 16
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kzzw5u80/shoe/k/b/1/7-rso182-red-tape-beige-original-imagbvnptyxwbzmq.jpeg?q=70",
+      "title": "white shoe",
+      "price": 1400,
+      "brand": "Red Tape",
+      "discount": "20%",
+      "gender": "kids",
+      "id": 17
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/1/i/u/-original-imaggcb7ndjv7fue.jpeg?q=70",
+      "title": "Grey shoe",
+      "price": 2000,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 18
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Black Shoe",
+      "price": 3000,
+      "brand": "Puma",
+      "discount": "10%",
+      "gender": "female",
+      "id": 19
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/o/c/w/g-40777cma-39-woodland-olive-green-original-imafwjusvemma4wv-bb.jpeg?q=70",
+      "title": "High Shoe",
+      "price": 2050,
+      "brand": "woodLand",
+      "discount": "20%",
+      "gender": "male",
+      "id": 20
+    },{
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Sport Shoe",
+      "price": 2500,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 21
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l1xwqkw0/t-shirt/u/a/o/s-3801-the-dry-state-original-imagde5qmgbgyr6e.jpeg?q=70",
+      "title": "blueTshirt",
+      "price": 700,
+      "brand": "roadester",
+      "discount": "20%",
+      "gender": "female",
+      "id": 22
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kiulxu80-0/t-shirt/k/d/w/3xl-tie-dye-babe-juneberry-original-imafyjk6hmpwac8j.jpeg?q=70",
+      "title": "Multicolor Tshirt",
+      "price": 500,
+      "brand": "ZARA",
+      "discount": "30%",
+      "gender": "kids",
+      "id": 23
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/z/s/z/xl-00104couple-26-tween-trends-original-imafjrmm8yxgxf8e-bb.jpeg?q=70",
+      "title": "Couple Tshirt",
+      "price": 800,
+      "brand": "vfesta",
+      "discount": "30%",
+      "gender": "male",
+      "id": 24
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/9/q/y/s-po3-grl-fs49-groovy-blk-wild-red-battle-leotude-original-imagfqu6zafgywgh.jpeg?q=70",
+      "title": "Red Tshirt",
+      "price": 400,
+      "brand": "Leotude",
+      "discount": "30%",
+      "gender": "female",
+      "id": 25
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/ktd9mkw0/t-shirt/f/3/y/s-w-necktop-darkyel-base-41-original-imag6qdqhygdg84f.jpeg?q=70",
+      "title": "Yellow",
+      "price": 300,
+      "brand": "Base1",
+      "discount": "30%",
+      "gender": "female",
+      "id": 26
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kzzw5u80/shoe/k/b/1/7-rso182-red-tape-beige-original-imagbvnptyxwbzmq.jpeg?q=70",
+      "title": "white shoe",
+      "price": 1400,
+      "brand": "Red Tape",
+      "discount": "20%",
+      "gender": "kids",
+      "id": 27
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/1/i/u/-original-imaggcb7ndjv7fue.jpeg?q=70",
+      "title": "Grey shoe",
+      "price": 2000,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 28
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Black Shoe",
+      "price": 3000,
+      "brand": "Puma",
+      "discount": "10%",
+      "gender": "female",
+      "id": 29
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/o/c/w/g-40777cma-39-woodland-olive-green-original-imafwjusvemma4wv-bb.jpeg?q=70",
+      "title": "High Shoe",
+      "price": 2050,
+      "brand": "woodLand",
+      "discount": "20%",
+      "gender": "male",
+      "id": 30
+    },{
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Sport Shoe",
+      "price": 2500,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 31
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l1xwqkw0/t-shirt/u/a/o/s-3801-the-dry-state-original-imagde5qmgbgyr6e.jpeg?q=70",
+      "title": "blueTshirt",
+      "price": 700,
+      "brand": "roadester",
+      "discount": "20%",
+      "gender": "female",
+      "id": 32
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kiulxu80-0/t-shirt/k/d/w/3xl-tie-dye-babe-juneberry-original-imafyjk6hmpwac8j.jpeg?q=70",
+      "title": "Multicolor Tshirt",
+      "price": 500,
+      "brand": "ZARA",
+      "discount": "30%",
+      "gender": "kids",
+      "id": 33
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/z/s/z/xl-00104couple-26-tween-trends-original-imafjrmm8yxgxf8e-bb.jpeg?q=70",
+      "title": "Couple Tshirt",
+      "price": 800,
+      "brand": "vfesta",
+      "discount": "30%",
+      "gender": "male",
+      "id": 34
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/9/q/y/s-po3-grl-fs49-groovy-blk-wild-red-battle-leotude-original-imagfqu6zafgywgh.jpeg?q=70",
+      "title": "Red Tshirt",
+      "price": 400,
+      "brand": "Leotude",
+      "discount": "30%",
+      "gender": "female",
+      "id": 35
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/ktd9mkw0/t-shirt/f/3/y/s-w-necktop-darkyel-base-41-original-imag6qdqhygdg84f.jpeg?q=70",
+      "title": "Yellow",
+      "price": 300,
+      "brand": "Base1",
+      "discount": "30%",
+      "gender": "female",
+      "id": 36
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kzzw5u80/shoe/k/b/1/7-rso182-red-tape-beige-original-imagbvnptyxwbzmq.jpeg?q=70",
+      "title": "white shoe",
+      "price": 1400,
+      "brand": "Red Tape",
+      "discount": "20%",
+      "gender": "kids",
+      "id": 37
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/1/i/u/-original-imaggcb7ndjv7fue.jpeg?q=70",
+      "title": "Grey shoe",
+      "price": 2000,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 38
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Black Shoe",
+      "price": 3000,
+      "brand": "Puma",
+      "discount": "10%",
+      "gender": "female",
+      "id": 39
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/o/c/w/g-40777cma-39-woodland-olive-green-original-imafwjusvemma4wv-bb.jpeg?q=70",
+      "title": "High Shoe",
+      "price": 2050,
+      "brand": "woodLand",
+      "discount": "20%",
+      "gender": "male",
+      "id": 40
+    },{
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Sport Shoe",
+      "price": 2500,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 41
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l1xwqkw0/t-shirt/u/a/o/s-3801-the-dry-state-original-imagde5qmgbgyr6e.jpeg?q=70",
+      "title": "blueTshirt",
+      "price": 700,
+      "brand": "roadester",
+      "discount": "20%",
+      "gender": "female",
+      "id": 42
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kiulxu80-0/t-shirt/k/d/w/3xl-tie-dye-babe-juneberry-original-imafyjk6hmpwac8j.jpeg?q=70",
+      "title": "Multicolor Tshirt",
+      "price": 500,
+      "brand": "ZARA",
+      "discount": "30%",
+      "gender": "kids",
+      "id": 43
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/z/s/z/xl-00104couple-26-tween-trends-original-imafjrmm8yxgxf8e-bb.jpeg?q=70",
+      "title": "Couple Tshirt",
+      "price": 800,
+      "brand": "vfesta",
+      "discount": "30%",
+      "gender": "male",
+      "id": 44
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/9/q/y/s-po3-grl-fs49-groovy-blk-wild-red-battle-leotude-original-imagfqu6zafgywgh.jpeg?q=70",
+      "title": "Red Tshirt",
+      "price": 400,
+      "brand": "Leotude",
+      "discount": "30%",
+      "gender": "female",
+      "id": 45
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/ktd9mkw0/t-shirt/f/3/y/s-w-necktop-darkyel-base-41-original-imag6qdqhygdg84f.jpeg?q=70",
+      "title": "Yellow",
+      "price": 300,
+      "brand": "Base1",
+      "discount": "30%",
+      "gender": "female",
+      "id": 46
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/kzzw5u80/shoe/k/b/1/7-rso182-red-tape-beige-original-imagbvnptyxwbzmq.jpeg?q=70",
+      "title": "white shoe",
+      "price": 1400,
+      "brand": "Red Tape",
+      "discount": "20%",
+      "gender": "kids",
+      "id": 47
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/1/i/u/-original-imaggcb7ndjv7fue.jpeg?q=70",
+      "title": "Grey shoe",
+      "price": 2000,
+      "brand": "Adidas",
+      "discount": "30%",
+      "gender": "male",
+      "id": 48
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/8/b/t/-original-imagf257pntmgrdr.jpeg?q=70",
+      "title": "Black Shoe",
+      "price": 3000,
+      "brand": "Puma",
+      "discount": "10%",
+      "gender": "female",
+      "id": 49
+    },
+    {
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/o/c/w/g-40777cma-39-woodland-olive-green-original-imafwjusvemma4wv-bb.jpeg?q=70",
+      "title": "High Shoe",
+      "price": 2050,
+      "brand": "woodLand",
+      "discount": "20%",
+      "gender": "male",
+      "id": 50
     }
   ]
 }

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
+import { useLocation,useNavigate } from 'react-router-dom';
 import styled from "styled-components"
 import { login } from '../redux/authReducer/action';
-
 
 
 function Login() {
@@ -11,23 +11,23 @@ function Login() {
     const [password, setPassword] = useState("")
     const dispatch = useDispatch()
     const { auth } = useSelector((store) => store.authReducer)
-
-    // useEffect(()=>{
-    //     theme= auth;
-    // },[auth])
-
+    const navigate = useNavigate()
+    const location = useLocation();
+    // console.log(location)
     const handleLogin = (e) => {
         e.preventDefault()
         const userData = {
             email, password
         }
-        dispatch(login(userData))
+        dispatch(login(userData)).then(()=>{
+ navigate(location.state,{replace:true})
+        })
         setEmail("");
         setPassword("")
       
     }
     return (
-        <DIV>
+        <DIV auth={auth}>
             <h1>USER LOGIN</h1>
             <h3>{auth ? "Login Successfull!!" : "Login To Conitnue.."}</h3>
             <form className='form-1' onSubmit={handleLogin}>
@@ -56,6 +56,10 @@ width:400px;
 margin:40px auto;
 border:1px solid grey;
 padding:10px;
+
+h3{
+   color:${({auth})=>auth?"green":"red"}
+}
 
 form{
   display:flex;
